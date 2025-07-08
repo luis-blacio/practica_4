@@ -88,7 +88,7 @@ public class LaberintoConGrafo {
         return new ResultadoLaberinto(grafo, inicio, fin);
     }
 
-    // Clase interna para el resultado
+
     public static class ResultadoLaberinto {
         public final GrafoEtiquetasNoDirigido<String> grafo;
         public final String inicio;

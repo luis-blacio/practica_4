@@ -59,10 +59,10 @@ public class GrafoEtiquetasNoDirigido<E> extends EtiquetaDirecta<E> {
         gd.insert_label("A", "B", 1.0f);
         gd.insert_label("A", "C", 2.0f);
         
-        System.out.println("=== GRAFO NO DIRIGIDO ===");
+        System.out.println(" GRAFO NO DIRIGIDO ");
         System.out.println(gd.toString());
         
-        System.out.println("=== VERIFICACIÓN DE BIDIRECCIONALIDAD ===");
+        System.out.println(" VERIFICACIÓN DE BIDIRECCIONALIDAD ");
         System.out.println("¿Existe A -> B? " + (gd.exist_edge_label("A", "B") != null));
         System.out.println("¿Existe B -> A? " + (gd.exist_edge_label("B", "A") != null));
         System.out.println("¿Existe A -> C? " + (gd.exist_edge_label("A", "C") != null));

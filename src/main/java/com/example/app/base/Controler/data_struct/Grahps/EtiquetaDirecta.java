@@ -1,12 +1,13 @@
 package com.example.app.base.Controler.data_struct.Grahps;
 
-import com.example.app.base.Controler.data_struct.list.Linkendlist;
-import java.util.HashMap;
 import java.lang.reflect.Array;
+import java.util.HashMap;
+
+import com.example.app.base.Controler.data_struct.list.Linkendlist;
 
 public class EtiquetaDirecta<E> extends GrafoDirigido {
     protected E labels[];
-    protected HashMap<E, Integer> dictVertex; // a cada vertice le voy a asignar un objeto
+    protected HashMap<E, Integer> dictVertex; 
     private Class<E> clazz;
 
 public EtiquetaDirecta(Integer nro_vertex, Class<E> clazz) {
@@ -24,13 +25,13 @@ super(nro_vertex);
 
     public void insert_label(E o, E d, Float weight){
         if(isLabelsGraph()){
-            insert(getVertex(o), getVertex(d), weight); // retorno vertice asociado
+            insert(getVertex(o), getVertex(d), weight); 
         }
     }
 
     public void insert_label(E o, E d){
         if(isLabelsGraph()){
-            insert(getVertex(o), getVertex(d), Float.NaN); // retorno vertice asociado
+            insert(getVertex(o), getVertex(d), Float.NaN); 
         }
     }
 
@@ -61,8 +62,8 @@ super(nro_vertex);
     }
 
     public E getLabel(Integer i){
-        //return dictVertex.get(i);
-        return labels[i]; //obtener la etiqueta del vertice
+        
+        return labels[i]; 
 
     }
 

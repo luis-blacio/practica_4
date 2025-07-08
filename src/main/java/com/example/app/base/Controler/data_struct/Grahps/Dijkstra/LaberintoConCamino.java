@@ -1,6 +1,7 @@
 package com.example.app.base.Controler.data_struct.Grahps.Dijkstra;
 
 import java.util.LinkedList;
+
 import com.example.app.base.admin.Practica4;
 
 
@@ -30,7 +31,7 @@ public class LaberintoConCamino {
 
     public static void main(String[] args) throws Exception {
         Practica4 generador = new Practica4();
-        String laberintoTexto = generador.generar(10, 10); // Cambié de 100x100 a 10x10
+        String laberintoTexto = generador.generar(30, 30); // Cambié de 100x100 a 10x10
 
         LaberintoConGrafo.ResultadoLaberinto resultado = LaberintoConGrafo.transformar(laberintoTexto);
 
