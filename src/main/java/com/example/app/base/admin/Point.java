@@ -26,7 +26,7 @@ public class Point {
     //corrida
     public static void main(String[] args) throws Exception {
         Practica4 p = new Practica4();
-        String aux = p.generar(20, 20);
+        String aux = p.generar(10, 10);
         System.out.println(aux);
     }
 }
