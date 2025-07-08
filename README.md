@@ -44,6 +44,4 @@ Para cambiar el tamaño del laberinto, modifica los parámetros en `LaberintoCon
 ```java
 String laberintoTexto = generador.generar(filas, columnas);
 ```
-My Application implementation. You'll learn how to set up your development environment, understand the project 
-structure, and find resources to help you add muscles to your skeleton — transforming it into a fully-featured 
-application.
+Esta practica fue realizada por Luis Blacio
